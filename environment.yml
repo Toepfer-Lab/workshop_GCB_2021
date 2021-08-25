@@ -1,0 +1,7 @@
+name: gcb
+channels:
+  - defaults
+dependencies:
+  - python
+  - jupyter
+prefix: /home/stefano/miniconda3/envs/gcb
