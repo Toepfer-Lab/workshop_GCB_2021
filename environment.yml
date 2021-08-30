@@ -2,6 +2,8 @@ name: gcb
 channels:
   - defaults
 dependencies:
-  - python
+  - python==3.9.6
   - jupyter
-prefix: /home/stefano/miniconda3/envs/gcb
+  - black
+  - mypy
+  - flake==3.9.2
