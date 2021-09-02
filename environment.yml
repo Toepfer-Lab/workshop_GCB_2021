@@ -6,4 +6,9 @@ dependencies:
   - jupyter
   - black
   - mypy
-  - flake==3.9.2
+  - flake8==3.9.2
+  - pip
+  - pip:
+    - cobra==0.22.1
+    - cobramod==1.0.0
+
