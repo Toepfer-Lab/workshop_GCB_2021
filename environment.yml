@@ -1,6 +1,7 @@
 name: gcb
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python==3.9.6
   - jupyter
@@ -8,7 +9,9 @@ dependencies:
   - mypy
   - flake8==3.9.2
   - pip
+  - rise
   - pip:
     - cobra==0.22.1
     - cobramod==1.0.0
+    - rise
 
