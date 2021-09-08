@@ -1,7 +1,18 @@
 name: gcb
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python
+  - python==3.9.6
   - jupyter
-prefix: /home/stefano/miniconda3/envs/gcb
+  - black
+  - mypy
+  - flake8==3.9.2
+  - pip
+  - rise
+  - pip:
+    - cobra==0.22.1
+    - cobramod==1.0.0
+    - rise
+    - jupyter_nbextensions_configurator
+    - jupyter_contrib_nbextensions
