@@ -14,4 +14,5 @@ dependencies:
     - cobra==0.22.1
     - cobramod==1.0.0
     - rise
-
+    - jupyter_nbextensions_configurator
+    - jupyter_contrib_nbextensions
